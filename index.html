@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Seed Governess</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
 </head>
 <body>
-    <nav class="navbar">
+    <nav role="navigation">
+        <div class="menu" id="myMenu">
 
-        <a href="#" class="menubutton">home</a>
+                <a href="#" class="menubutton">home</a>
 
-        <a href="#" class="menubutton">about</a>
+                <a href="#about" class="menubutton">about</a>
 
-        <a href="#" class="menubutton">products</a>
+                <a href="#products" class="menubutton">products</a>
 
-        <a href="#" class="menubutton">blog</a>
+                <a href="#" class="menubutton">blog</a>
 
-        <a href="#" class="menubutton">contact</a>
+                <a href="#contact" class="menubutton">contact</a>
+
+    </div>
+
+        
 
     </nav>
 
@@ -25,20 +33,23 @@
 
         <div class="section-centered">
 
-            <div class="about">
+            <section class="about" id="about">
 
-                <section class="video">
+                <div class="video">
+
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/mLef_M10jbY?si=DceBEo1k3HFn6N3t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                         
                     </iframe>
-                </section>
-            </div>
+
+                </div>
+
+            </section>
 
             <div class="products">
 
-                <section class="products">
+                <section class="products" id="products">
 
-                    <div class="card-container">
+                    <div class="card-container" id="card-container">
 
                         <div class="card">
 
@@ -92,7 +103,28 @@
                 </section>
                 
             </div>
+        <section class="contact" id="contact">
+            <h3>
+                Contact Us
+            </h3>
+            <div class="contactform">
+                <form action="" method="get" class="form-action">
+                    <div class="form-text">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form-text">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
 
+                    <!--<textarea name="" id="text-area" cols="30" rows="10"></textarea>
+                    <div class="form-text">-->
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
     </div>
     </main>
 </body>
