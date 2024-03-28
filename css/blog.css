@@ -1,0 +1,189 @@
+
+body{
+
+    background-color: rgb(212, 255, 224);
+    font-family: monospace;
+    color: rgb(33, 43, 50);
+    padding: 0;
+    margin: 0;
+
+}
+
+nav {
+    background: #f9f9f9;
+    .menuItems {
+      list-style: none;
+      display: block;
+      overflow: hidden;
+
+  
+      li {
+        float: left;
+        text-align: center;
+        margin: 0rem 3rem 0rem 3rem;
+        padding: 0.2rem;
+
+  
+        a {
+          text-decoration: none;
+          color: #8f8f8f;
+          font-size: 24px;
+          font-weight: 600;
+          transition: all 0.5s ease-in-out;
+          position: relative;
+          text-transform: uppercase;
+  
+          &::before {
+            content: attr(data-item);
+            transition: 0.5s;
+            color: #2b6b51;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 0;
+            overflow: hidden;
+          }
+  
+          &:hover {
+            &::before {
+              width: 100%;
+              transition: all 0.5s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+
+main{
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+section{
+
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+
+}
+
+
+div{
+
+    max-width: 70rem;
+    padding: 2rem;
+
+}
+
+.scroll-watcher{
+
+    position: fixed;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(194, 175, 212);
+    padding: 0;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+    transform-origin: top;
+    z-index: 1000;
+    scale: 0 1;
+
+}
+
+@keyframes fade-in {
+
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+
+}
+
+@keyframes scroll-watcher {
+
+    to{
+        scale: 1 0;
+    }
+    from{
+        scale: 1 1;
+    }
+
+}
+
+.hidden{
+
+    opacity: 0;
+    transition: all 3s ease;
+
+}
+
+.show{
+
+    opacity:1;
+    
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  .form-text{
+    font-size: 2rem;
+    padding: 1rem;
+    display: block;
+    position: left;
+    z-index: -4;
+}
