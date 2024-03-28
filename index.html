@@ -11,30 +11,29 @@
 
 </head>
 <body>
+    
     <nav role="navigation">
         <div class="menu" id="myMenu">
 
-                <a href="#" class="menubutton">home</a>
+            <ul class="menuItems">
+                <li><a href="#"  data-item = 'home'>home</a></li>
+                <li><a href="#about" data-item = 'about' >about</a></li>
+                <li><a href="#products"  data-item = 'products'>products</a></li>
+                <!--<li><a href="#blog" data-item = 'blog' >blog</a></li>-->
+                <li><a href="#contact" data-item = 'contact'>contact</a></li>
+            </ul>      
 
-                <a href="#about" class="menubutton">about</a>
-
-                <a href="#products" class="menubutton">products</a>
-
-                <a href="#" class="menubutton">blog</a>
-
-                <a href="#contact" class="menubutton">contact</a>
-
-    </div>
-
-        
+        </div>
 
     </nav>
+
+    <div class="scroll-watcher"></div>
 
     <main class="home-page">
 
         <div class="section-centered">
 
-            <div class="hidden"></div>
+            <div class="hidden">
 
                 <section class="about" id="about">
 
@@ -47,9 +46,10 @@
                     </div>
 
                 </section>
+
             </div>
 
-            <div class="hidden"></div>
+            <div class="hidden">
 
                 <div class="products">
 
@@ -107,35 +107,47 @@
                         </div>
                     
                     </section>
-                
+                </div>
             </div>
 
-        </div>
+            <!--<div class="hidden">
+                <section class="blog" id="blog">
 
-        <div class="hidden">
+                </section>
+            </div>-->
 
-            <section class="contact" id="contact">
-                <h3>
-                    Contact Us
-                </h3>
-                <div class="contactform">
-                    <form action="" method="get" class="form-action">
-                        <div class="form-text">
-                            <label for="name">Name:</label>
-                            <input type="text" name="name" id="name" required>
-                        </div>
-                        <div class="form-text">
-                            <label for="email">Email: </label>
-                            <input type="email" name="email" id="email" required>
-                        </div>
+        
 
-                        <!--<textarea name="" id="text-area" cols="30" rows="10"></textarea>
-                        <div class="form-text">-->
-                            <input type="submit" value="Submit">
-                        </div>
+            <div class="hidden">
+
+                <section class="contact" id="contact">
+
+                    <form action="action_page.php">
+                
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
                     </form>
-                </div>
-            </section>
+
+                </section>
+
+            </div>
+
         </div>
 
     </main>
