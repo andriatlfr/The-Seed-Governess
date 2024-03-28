@@ -8,53 +8,65 @@
     <script defer src="./js/myscripts.js"></script>
 </head>
 <body>
-    <nav role="navigation">
-        <div class="menu" id="myMenu">
+    <!-- nav bar -->
+    <header>
+        
+        <nav role="navigation">
 
-            <ul class="menuItems">
-                <li><a href="/index.html"  data-item = 'home'>home</a></li>
-                <li><a href="/about.html" data-item = 'about' >about</a></li>
-                <li><a href="/products.html"  data-item = 'products'>products</a></li>
-                <li><a href="/blog.html" data-item = 'blog' >blog</a></li>
-                <li><a href="/contact.html" data-item = 'contact'>contact</a></li>
-                <li><a href="#" data-item="shop">shop</a></li>
-            </ul>     
+            <div>
 
-        </div>
+                <img src="logo.svg" alt="logo">
+    
+            </div>
 
-    </nav>
+            <div class="menu" id="myMenu">
+
+                <ul class="menuItems">
+                    <li><a href="/index.html"  data-item = 'home'>home</a></li>
+                    <li><a href="/about.html" data-item = 'about' >about</a></li>
+                    <li><a href="/products.html"  data-item = 'products'>products</a></li>
+                    <li><a href="/blog.html" data-item = 'blog' >blog</a></li>
+                    <li><a href="/contact.html" data-item = 'contact'>contact</a></li>
+                    <li><a href="#" data-item="shop">shop</a></li>
+                </ul>      
+
+            </div>
+
+        </nav>
+
+    </header>
+
 
     <div class="scroll-watcher"></div>
 
-    <div class="#">
-
-        <section class="contact" id="contact">
-
-            <form action="action_page.php">
+    <main>
+        <div class="#">
+            <section class="contact" id="contact">
+                <form action="action_page.php">
         
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
         
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
         
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
         
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
         
-            <input type="submit" value="Submit">
+                <input type="submit" value="Submit">
         
-            </form>
-
-        </section>
-
-    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
     <script src="./js/myscripts.js"></script>
 </body>
 </html>

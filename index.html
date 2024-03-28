@@ -11,147 +11,150 @@
 
 </head>
 <body>
+    <!-- nav bar -->
+    <header>
+        
+        <nav role="navigation">
+
+            <div>
+
+                <img src="logo.svg" alt="logo">
     
-    <nav role="navigation">
-        <div class="menu" id="myMenu">
+            </div>
 
-            <ul class="menuItems">
-                <li><a href="/index.html"  data-item = 'home'>home</a></li>
-                <li><a href="/about.html" data-item = 'about' >about</a></li>
-                <li><a href="/products.html"  data-item = 'products'>products</a></li>
-                <li><a href="/blog.html" data-item = 'blog' >blog</a></li>
-                <li><a href="/contact.html" data-item = 'contact'>contact</a></li>
-                <li><a href="#" data-item="shop">shop</a></li>
-            </ul>      
+            <div class="menu" id="myMenu">
 
-        </div>
+                <ul class="menuItems">
+                    <li><a href="/index.html"  data-item = 'home'>home</a></li>
+                    <li><a href="/about.html" data-item = 'about' >about</a></li>
+                    <li><a href="/products.html"  data-item = 'products'>products</a></li>
+                    <li><a href="/blog.html" data-item = 'blog' >blog</a></li>
+                    <li><a href="/contact.html" data-item = 'contact'>contact</a></li>
+                    <li><a href="#" data-item="shop">shop</a></li>
+                </ul>      
 
-    </nav>
+            </div>
+
+        </nav>
+
+    </header>
 
     <div class="scroll-watcher"></div>
 
-    <main class="home-page">
+    <!-- hero section -->
 
-        <div class="section-centered">
-
-            <div class="hidden">
-
-                <section class="about" id="about">
-
-                    <div class="video">
-
-                        
-
-                    </div>
-
-                </section>
-
-            </div>
+            <main>
+                <div class="hidden">
+                    <section class="about">
+                        <h1>This is the welcome page</h1>
+                        <h2>This is the explanation</h2>
+                        <p></p>
+                    </section>
+                </div>
+            </main>
             
+            <footer></footer>
+            <script src="./js/myscripts.js"></script>
+        </body>
+        
+        </html>
 
-            <!--<div class="hidden">
 
-                <div class="products">
+        <!--<div class="hidden">
 
-                    <section class="products" id="products">
+            <div class="products">
 
-                        <div class="card-container" id="card-container">
+                <section class="products" id="products">
 
-                            <div class="card">
+                    <div class="card-container" id="card-container">
 
-                                <div class="card__textblock">
+                        <div class="card">
 
-                                    <h3 class="card_heading">
+                            <div class="card__textblock">
 
-                                        Product 1
+                                <h3 class="card_heading">
 
-                                    </h3>
+                                    Product 1
 
-                                    <img src="/images/product1.jpg" alt="Product 3">
+                                </h3>
 
-                                </div>
-
-                            </div>
-                            
-                            <div class="card">
-
-                                <div class="card__textblock">
-
-                                    <h3 class="card_heading">
-
-                                        Product 2
-
-                                    </h3>
-
-                                    <img src="/images/product2.jpg" alt="Product 2">
-
-                                </div>
-
-                            </div>
-                            <div class="card">
-
-                                <div class="card__textblock">
-
-                                    <h3 class="card_heading">
-
-                                        Product 3
-
-                                    </h3>
-
-                                    <img src="./images/product3.jpg" alt="Product 3">
-
-                                </div>
+                                <img src="/images/product1.jpg" alt="Product 3">
 
                             </div>
 
                         </div>
-                    
-                    </section>
-                </div>
-            </div>
+                        
+                        <div class="card">
 
-           <div class="hidden">
-                <section class="blog" id="blog">
+                            <div class="card__textblock">
 
+                                <h3 class="card_heading">
+
+                                    Product 2
+
+                                </h3>
+
+                                <img src="/images/product2.jpg" alt="Product 2">
+
+                            </div>
+
+                        </div>
+                        <div class="card">
+
+                            <div class="card__textblock">
+
+                                <h3 class="card_heading">
+
+                                    Product 3
+
+                                </h3>
+
+                                <img src="./images/product3.jpg" alt="Product 3">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                
                 </section>
             </div>
-
-        
-
-            <div class="hidden">
-
-                <section class="contact" id="contact">
-
-                    <form action="action_page.php">
-                
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                    </select>
-                
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                
-                    <input type="submit" value="Submit">
-                
-                    </form>
-
-                </section>
-
-            </div>-->
-
         </div>
 
-    </main>
-    <script src="./js/myscripts.js"></script>
-</body>
-<footer></footer>
-</html>
+       <div class="hidden">
+            <section class="blog" id="blog">
+
+            </section>
+        </div>
+
+    
+
+        <div class="hidden">
+
+            <section class="contact" id="contact">
+
+                <form action="action_page.php">
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+                </form>
+
+            </section>
+
+        </div>-->
