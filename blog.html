@@ -82,7 +82,12 @@
             </section>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Copyright &copy; <span id="copyright"></span> My site. All rights reserved.</p>
+    </footer>
+    <script>
+      document.querySelector("#copyright").textContent = new Date().getFullYear().toString();
+    </script>
     <script src="./js/myscripts.js"></script>
 </body>
 </html>
