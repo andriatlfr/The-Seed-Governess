@@ -1,6 +1,6 @@
 body{
 
-    background-color: rgb(212, 255, 224);
+    background-color: rgbedf6f1;
     font-family: monospace;
     color: rgb(33, 43, 50);
     padding: 0;
@@ -9,7 +9,7 @@ body{
 }
 
 nav {
-  background: #f9f9f9;
+  background: edf6f1;
   .logo{
       display:flex;
       float: right;
