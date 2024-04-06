@@ -150,7 +150,7 @@ div{
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
-  .leftcolumn {
+ /* .leftcolumn {
     display: flex;
     float: left;
     width: 100%;
@@ -158,7 +158,7 @@ div{
   }
   
   /* Right column */
-  .rightcolumn {
+  /*.rightcolumn {
     display: flex;
     float: left;
     width: 25%;
@@ -166,21 +166,21 @@ div{
   }
   
   /* Fake image */
-  .fakeimg {
+  /*.fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
   }
   
   /* Add a card effect for articles */
-  .card {
+  /*.card {
     background-color: white;
     padding: 20px;
     margin-top: 80px;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  /*.row:after {
     content: "";
     display: table;
     clear: both;
@@ -194,10 +194,10 @@ div{
     margin-top: 20px;
   }
 
-  .form-text{
+ /* .form-text{
     font-size: 2rem;
     padding: 1rem;
     display: block;
     position: left;
     z-index: -4;
-}
+}*/
