@@ -2,18 +2,19 @@ body{
 
   background-color: #f4f6f6;
   font-family: monospace;
-  color: rgb(33, 43, 50);
+  color: rgb(49, 64, 74);
   padding: 0;
   margin: 0;
 
 }
 
 nav {
+display: flex;
 background: #f4f6f6;
+justify-content: center;
 .logo{
     display:flex;
     float: right;
-    justify-content: center;
     width: 3rem;
   }
 .menuItems {

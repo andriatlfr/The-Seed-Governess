@@ -2,70 +2,71 @@ body{
 
   background-color: #f4f6f6;
   font-family: monospace;
-  color: rgb(33, 43, 50);
+  color: rgb(49, 64, 74);
   padding: 0;
   margin: 0;
 
 }
 
 nav {
-background: #f4f6f6;
-.logo{
-    display:flex;
-    float: right;
-    justify-content: center;
-    width: 3rem;
-  }
-.menuItems {
-  list-style: none;
   display: flex;
-  overflow: hidden;
-
-  ul{
+  background: #f4f6f6;
+  justify-content: center;
+  .logo{
+      display:flex;
+      float: right;
+      width: 3rem;
+    }
+  .menuItems {
+    list-style: none;
     display: flex;
-    float: right;
-  }
-
-
-  li {
-    float: left;
-    text-align: center;
-    margin: 1rem 2.5rem 1rem 2.5rem;
-    padding: 0.3rem ;
-
-
-    a {
-      text-decoration: none;
-      color: #6e4869;
-      font-size: 24px;
-      font-weight: 600;
-      transition: all 0.5s ease-in-out;
-      position: relative;
-      text-transform: uppercase;
-
-      &::before {
-        content: attr(data-item);
-        transition: 0.5s;
-        color: #e19ff8;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 0;
-        overflow: hidden;
-      }
-
-      &:hover {
+    overflow: hidden;
+  
+    ul{
+      display: flex;
+      float: right;
+    }
+  
+  
+    li {
+      float: left;
+      text-align: center;
+      margin: 1rem 2.5rem 1rem 2.5rem;
+      padding: 0.3rem ;
+  
+  
+      a {
+        text-decoration: none;
+        color: #6e4869;
+        font-size: 24px;
+        font-weight: 600;
+        transition: all 0.5s ease-in-out;
+        position: relative;
+        text-transform: uppercase;
+  
         &::before {
-          width: 100%;
-          transition: all 0.5s ease-in-out;
+          content: attr(data-item);
+          transition: 0.5s;
+          color: #e19ff8;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 0;
+          overflow: hidden;
+        }
+  
+        &:hover {
+          &::before {
+            width: 100%;
+            transition: all 0.5s ease-in-out;
+          }
         }
       }
     }
   }
-}
-}
+  }
 
 main{
     display: grid;

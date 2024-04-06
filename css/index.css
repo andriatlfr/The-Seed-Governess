@@ -1,39 +1,40 @@
 body{
 
-    background-color: #f4f6f6;
-    font-family: monospace;
-    color: rgb(33, 43, 50);
-    padding: 0;
-    margin: 0;
+  background-color: #f4f6f6;
+  font-family: monospace;
+  color: rgb(49, 64, 74);
+  padding: 0;
+  margin: 0;
 
 }
 
 nav {
+  display: flex;
   background: #f4f6f6;
+  justify-content: center;
   .logo{
       display:flex;
       float: right;
-      justify-content: center;
       width: 3rem;
     }
   .menuItems {
     list-style: none;
     display: flex;
     overflow: hidden;
-
+  
     ul{
       display: flex;
       float: right;
     }
-
-
+  
+  
     li {
       float: left;
       text-align: center;
       margin: 1rem 2.5rem 1rem 2.5rem;
       padding: 0.3rem ;
-
-
+  
+  
       a {
         text-decoration: none;
         color: #6e4869;
@@ -42,7 +43,7 @@ nav {
         transition: all 0.5s ease-in-out;
         position: relative;
         text-transform: uppercase;
-
+  
         &::before {
           content: attr(data-item);
           transition: 0.5s;
@@ -55,7 +56,7 @@ nav {
           width: 0;
           overflow: hidden;
         }
-
+  
         &:hover {
           &::before {
             width: 100%;
@@ -65,7 +66,7 @@ nav {
       }
     }
   }
-}
+  }
 
 
 main{
