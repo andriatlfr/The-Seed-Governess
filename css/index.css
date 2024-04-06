@@ -1,6 +1,6 @@
 body{
 
-    background-color: edf6f1;
+    background-color: #edf6f1;
     font-family: monospace;
     color: rgb(33, 43, 50);
     padding: 0;
@@ -9,63 +9,63 @@ body{
 }
 
 nav {
-    background: #edf6f1;
-    .logo{
-        display:flex;
-        float: right;
-        justify-content: center;
-        width: 3rem;
-      }
-    .menuItems {
-      list-style: none;
+  background: #a5ffee;
+  .logo{
+      display:flex;
+      float: right;
+      justify-content: center;
+      width: 3rem;
+    }
+  .menuItems {
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+
+    ul{
       display: flex;
-      overflow: hidden;
+      float: right;
+    }
 
-      ul{
-        display: flex;
-        float: right;
-      }
 
-  
-      li {
-        float: left;
-        text-align: center;
-        margin: 1rem 2.5rem 1rem 2.5rem;
-        padding: 0.3rem ;
+    li {
+      float: left;
+      text-align: center;
+      margin: 1rem 2.5rem 1rem 2.5rem;
+      padding: 0.3rem ;
 
-  
-        a {
-          text-decoration: none;
-          color: #8f8f8f;
-          font-size: 24px;
-          font-weight: 600;
-          transition: all 0.5s ease-in-out;
-          position: relative;
-          text-transform: uppercase;
-  
+
+      a {
+        text-decoration: none;
+        color: #482843;
+        font-size: 24px;
+        font-weight: 600;
+        transition: all 0.5s ease-in-out;
+        position: relative;
+        text-transform: uppercase;
+
+        &::before {
+          content: attr(data-item);
+          transition: 0.5s;
+          color: #e19ff8;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 0;
+          overflow: hidden;
+        }
+
+        &:hover {
           &::before {
-            content: attr(data-item);
-            transition: 0.5s;
-            color: #2b6b51;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            width: 0;
-            overflow: hidden;
-          }
-  
-          &:hover {
-            &::before {
-              width: 100%;
-              transition: all 0.5s ease-in-out;
-            }
+            width: 100%;
+            transition: all 0.5s ease-in-out;
           }
         }
       }
     }
   }
+}
 
 
 main{

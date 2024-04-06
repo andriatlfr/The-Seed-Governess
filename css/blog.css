@@ -1,7 +1,7 @@
 
 body{
 
-    background-color: edf6f1;
+    background-color: #edf6f1;
     font-family: monospace;
     color: rgb(33, 43, 50);
     padding: 0;
@@ -10,7 +10,7 @@ body{
 }
 
 nav {
-  background: edf6f1;
+  background: #a5ffee;
   .logo{
       display:flex;
       float: right;
@@ -19,12 +19,12 @@ nav {
     }
   .menuItems {
     list-style: none;
-    display: flexbox;
+    display: flex;
     overflow: hidden;
 
     ul{
       display: flex;
-      float: left;
+      float: right;
     }
 
 
@@ -37,7 +37,7 @@ nav {
 
       a {
         text-decoration: none;
-        color: #8f8f8f;
+        color: #482843;
         font-size: 24px;
         font-weight: 600;
         transition: all 0.5s ease-in-out;
@@ -47,7 +47,7 @@ nav {
         &::before {
           content: attr(data-item);
           transition: 0.5s;
-          color: #2b6b51;
+          color: #e19ff8;
           position: absolute;
           top: 0;
           bottom: 0;
