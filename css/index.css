@@ -11,21 +11,27 @@ body{
 nav {
     background: #f9f9f9;
     .logo{
-        display: none;
+        display:flex;
+        float: left;
+        justify-content: center;
+        width: 3rem;
       }
     .menuItems {
       list-style: none;
-      display: block;
+      display: flexbox;
       overflow: hidden;
 
-      
+      ul{
+        display: flex;
+        float: right;
+      }
 
   
       li {
         float: left;
         text-align: center;
-        margin: 0rem 3rem 0rem 3rem;
-        padding: 0.2rem;
+        margin: 1rem 2.5rem 1rem 2.5rem;
+        padding: 0.3rem ;
 
   
         a {
@@ -60,6 +66,7 @@ nav {
       }
     }
   }
+
 
 main{
     display: grid;
@@ -131,5 +138,13 @@ div{
 
     opacity:1;
     
+}
+
+img{
+  width: 100%;
+}
+
+footer{
+  align-items: end;
 }
 
