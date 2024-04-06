@@ -10,18 +10,15 @@ body{
 
 nav {
   background: #f9f9f9;
-  width: 100%;
-  overflow: hidden;
-  
   .logo{
       display:flex;
-      float: left;
+      float: right;
       justify-content: center;
       width: 3rem;
     }
   .menuItems {
     list-style: none;
-    display: flexbox;
+    display: flex;
     overflow: hidden;
 
     ul{
@@ -69,7 +66,6 @@ nav {
     }
   }
 }
-
 main{
     display: grid;
     place-items: center;

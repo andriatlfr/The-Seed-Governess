@@ -13,7 +13,7 @@ nav {
   background: #f9f9f9;
   .logo{
       display:flex;
-      float: left;
+      float: right;
       justify-content: center;
       width: 3rem;
     }
@@ -24,7 +24,7 @@ nav {
 
     ul{
       display: flex;
-      float: right;
+      float: left;
     }
 
 
