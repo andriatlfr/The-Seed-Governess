@@ -1,6 +1,6 @@
 body{
 
-    background-color: #edf6f1;
+    background-color: #f4f6f6;
     font-family: monospace;
     color: rgb(33, 43, 50);
     padding: 0;
@@ -9,7 +9,7 @@ body{
 }
 
 nav {
-  background: #a5ffee;
+  background: #f4f6f6;
   .logo{
       display:flex;
       float: right;
@@ -36,7 +36,7 @@ nav {
 
       a {
         text-decoration: none;
-        color: #482843;
+        color: #6e4869;
         font-size: 24px;
         font-weight: 600;
         transition: all 0.5s ease-in-out;
