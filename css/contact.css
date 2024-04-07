@@ -72,6 +72,7 @@ main{
     display: grid;
     place-items: center;
     align-content: center;
+    margin: 50px;
 }
 
 section{
@@ -181,4 +182,35 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.footer-menu{
+  background: #f4f6f6;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5rem;
+
+  .footer-MenuItems {
+      list-style: none;
+      overflow: hidden;
+}
+ul{
+  display: flex;
+  float: right;
+}
+li{
+  padding: 0rem 1rem 0rem 1rem;
+}
+a{
+  text-decoration: none;
+  color: #6e4869;
+}
+a:hover{
+  color: #e19ff8;
+}
+}
+
+footer p{
+  float: left;
 }

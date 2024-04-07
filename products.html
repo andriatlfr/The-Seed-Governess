@@ -100,7 +100,23 @@
 
     </main>
     <footer>
-        <p>Copyright &copy; <span id="copyright"></span> My site. All rights reserved.</p>
+        
+        <div class="hidden">
+            <div class="footer-menu">
+
+                <ul class="footer-MenuItems">
+                    <li><a href="/index.html"  data-item = 'home'>home</a></li>
+                    <li><a href="/about.html" data-item = 'about' >about</a></li>
+                    <li><a href="/products.html"  data-item = 'products'>products</a></li>
+                    <li><a href="/blog.html" data-item = 'blog' >blog</a></li>
+                    <li><a href="/contact.html" data-item = 'contact'>contact</a></li>
+                    <li><a href="#" data-item="shop">shop</a></li>
+                </ul>      
+                <p>Copyright &copy; <span id="copyright"></span> My site. All rights reserved.</p>
+
+            </div>
+        </div>
+
     </footer>
     <script>
     document.querySelector("#copyright").textContent = new Date().getFullYear().toString();

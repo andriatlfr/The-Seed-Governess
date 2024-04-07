@@ -72,6 +72,7 @@ main{
     display: grid;
     place-items: center;
     align-content: center;
+    margin: 50px;
 }
 
 section{
@@ -147,57 +148,35 @@ div{
     text-align: center;
     
   }
-  
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
- /* .leftcolumn {
-    display: flex;
-    float: left;
-    width: 100%;
-    padding: 60px;
-  }
-  
-  /* Right column */
-  /*.rightcolumn {
-    display: flex;
-    float: left;
-    width: 25%;
-    padding-left: 60px;
-  }
-  
-  /* Fake image */
-  /*.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  /* Add a card effect for articles */
-  /*.card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 80px;
-  }
-  
-  /* Clear floats after the columns */
-  /*.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
 
- /* .form-text{
-    font-size: 2rem;
-    padding: 1rem;
-    display: block;
-    position: left;
-    z-index: -4;
-}*/
+  .footer-menu{
+    background: #f4f6f6;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5rem;
+
+    .footer-MenuItems {
+        list-style: none;
+        overflow: hidden;
+}
+ul{
+    display: flex;
+    float: right;
+  }
+li{
+    padding: 0rem 1rem 0rem 1rem;
+}
+a{
+    text-decoration: none;
+    color: #6e4869;
+}
+a:hover{
+    color: #e19ff8;
+}
+}
+
+footer p{
+    float: left;
+}
+
