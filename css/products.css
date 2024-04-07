@@ -272,21 +272,21 @@ main{
     .footer-MenuItems {
         list-style: none;
         overflow: hidden;
-}
-ul{
-    display: flex;
-    float: right;
-  }
-li{
-    padding: 0rem 1rem 0rem 1rem;
-}
-a{
-    text-decoration: none;
-    color: #6e4869;
-}
-a:hover{
-    color: #e19ff8;
-}
+    }
+    ul{
+        display: flex;
+        float: right;
+    }
+    li{
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    a{
+        text-decoration: none;
+        color: #6e4869;
+    }
+    a:hover{
+        color: #e19ff8;
+    }
 }
 
 footer p{
