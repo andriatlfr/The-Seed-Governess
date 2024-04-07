@@ -267,7 +267,7 @@ main{
     justify-content: center;
     text-align: center;
     margin: auto;
-    padding-bottom: 5rem;
+    padding-bottom: 5px;
 
     .footer-MenuItems {
         list-style: none;
