@@ -37,17 +37,17 @@ nav {
   
       a {
         text-decoration: none;
-        color: #6e4869;
+        color: #473056;
         font-size: 24px;
-        font-weight: 600;
+        font-weight: 800;
         transition: all 0.5s ease-in-out;
         position: relative;
         text-transform: uppercase;
   
         &::before {
           content: attr(data-item);
-          transition: 0.5s;
-          color: #e19ff8;
+          transition: 0.8s;
+          color: #8ddb9a;
           position: absolute;
           top: 0;
           bottom: 0;
@@ -98,7 +98,7 @@ div{
     top: 0;
     width: 5px;
     height: 100%;
-    background-color: rgb(194, 175, 212);
+    background-color: rgb(33, 27, 37);
     padding: 0;
     animation: scroll-watcher linear;
     animation-timeline: scroll();
