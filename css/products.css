@@ -97,7 +97,7 @@ div{
     top: 0;
     width: 5px;
     height: 100%;
-    background-color: rgb(194, 175, 212);
+    background-color: rgb(33, 27, 37);
     padding: 0;
     animation: scroll-watcher linear;
     animation-timeline: scroll();
