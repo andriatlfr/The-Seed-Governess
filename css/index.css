@@ -132,7 +132,7 @@ div{
 .hidden{
 
     opacity: 0;
-    transition: all 3s ease;
+    transition: all 3s ease-in-out;
 
 }
 
