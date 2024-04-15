@@ -12,11 +12,13 @@ nav {
     display: flex;
     background: #f4f6f6;
     justify-content: center;
+
     .logo{
         display:flex;
         float: right;
         width: 3rem;
       }
+      
     .menuItems {
       list-style: none;
       display: flex;
@@ -68,6 +70,7 @@ nav {
     }
 
     }
+
 
 html{
     scroll-behavior: smooth;
