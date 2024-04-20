@@ -89,13 +89,10 @@ section{
 
 }
 
-
-
 div{
 
     max-width: 70rem;
     padding: 2rem;
-
 }
 
 .scroll-watcher{
@@ -154,17 +151,15 @@ div{
     float: left;
     max-width: 60%;
     padding: 1rem;
+    margin-right: 2rem;
   }
 
-  h3{
-    display: flex;
-    float: right;
-    padding: 2rem;
-    margin: 2rem;
+  h1{
+    font-size: 1.4rem;
   }
 
   p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   
 }
@@ -176,17 +171,15 @@ div{
     float: right;
     max-width: 60%;
     padding: 1rem;
+    margin-right: 2rem;
   }
 
-  h3{
-    display: flex;
-    float: left;
-    padding: 2rem;
-    margin: 2rem;
+  h1{
+    font-size: 1.4rem;
   }
 
   p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   
 }
@@ -198,17 +191,15 @@ div{
     float: left;
     max-width: 60%;
     padding: 1rem;
+    margin-right: 2rem;
   }
 
-  h3{
-    display: flex;
-    float: right;
-    padding: 2rem;
-    margin: 2rem;
+  h1{
+    font-size: 1.4rem;
   }
 
   p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   
 }
